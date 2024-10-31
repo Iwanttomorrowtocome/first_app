@@ -1,0 +1,9 @@
+.parent {
+    display: grid;          /* グリッドを設定 */
+    place-items: center;    /* 縦横ともに中央揃え */
+    height: 100vh;         /* 親要素の高さを画面いっぱいに設定 */
+}
+
+.child {
+    margin-top: 20px; /* 上部に20pxのマージンを追加 */
+}
